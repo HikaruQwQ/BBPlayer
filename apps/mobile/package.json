@@ -75,7 +75,7 @@
 		"md5": "^2.3.0",
 		"mitt": "^3.0.1",
 		"neverthrow": "^8.2.0",
-		"node-forge": "1.4.0",
+		"node-forge": "1.4.3",
 		"number-flow-react-native": "^0.5.1",
 		"react": "19.3.0",
 		"react-native": "0.88.1",

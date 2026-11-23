@@ -352,8 +352,8 @@ importers:
         specifier: ^8.2.0
         version: 8.2.0
       node-forge:
-        specifier: 1.4.0
-        version: 1.4.0
+        specifier: 1.4.3
+        version: 1.4.3
       number-flow-react-native:
         specifier: ^0.5.1
         version: 0.5.1(patch_hash=c39492bb503dbf42327cdea25447c3454a723e2fab7d53a9a5f2f1c7336022af)(7ef2bde2bbbba03851bd2e2670366212)
@@ -841,8 +841,8 @@ importers:
         specifier: ^8.2.0
         version: 8.2.0
       node-forge:
-        specifier: 1.4.0
-        version: 1.4.0
+        specifier: 1.4.3
+        version: 1.4.3
       ts-jest:
         specifier: ^29.4.1
         version: 29.4.10(@babel/core@7.29.13(supports-color@10.2.2))(@jest/transform@30.2.0(supports-color@10.2.2))(@jest/types@30.2.0)(babel-jest@30.2.0(@babel/core@7.29.13(supports-color@10.2.2))(supports-color@10.2.2))(esbuild@0.28.2)(jest-util@30.2.0)(jest@30.2.0(@types/node@25.9.9)(esbuild-register@3.6.0(esbuild@0.28.2)(supports-color@10.2.2))(supports-color@10.2.2)(ts-node@10.9.2(@types/node@25.9.9)(typescript@6.0.3)))(typescript@6.0.3)
@@ -11596,6 +11596,10 @@ packages:
     resolution: {integrity: sha512-LarFH0+6VfriEhqMMcLX2F7SwSXeWwnEAJEsYm5QKWchiVYVvJyV9v7UDvUv+w5HO23ZpQTXDv/GxdDdMyOuoQ==}
     engines: {node: '>= 6.13.0'}
 
+  node-forge@1.4.3:
+    resolution: {integrity: sha512-P6wzfh6t70avmV8FrVEAd/36sOPJQ+hkaJVX1Laap9J/77m7M0eyozDvc8SwnDf4P7MP94gwbAAo0rg3YVXT+g==}
+    engines: {node: '>= 6.13.0'}
+
   node-gyp-build@4.8.4:
     resolution: {integrity: sha512-LA4ZjwlnUblHVgq0oBF3Jl/6h/Nvs5fzBLwdEF4nuxnFdsfajde4WfxtJr3CaiH+F6ewcIB/q4jQ4UzPyid+CQ==}
     hasBin: true
@@ -17230,7 +17234,7 @@ snapshots:
 
   '@expo/code-signing-certificates@0.0.7':
     dependencies:
-      node-forge: 1.4.0
+      node-forge: 1.4.3
 
   '@expo/config-plugins@57.0.9(supports-color@10.2.2)(typescript@6.0.3)':
     dependencies:
@@ -28027,6 +28031,8 @@ snapshots:
       formdata-polyfill: 4.0.10
 
   node-forge@1.4.0: {}
+
+  node-forge@1.4.3: {}
 
   node-gyp-build@4.8.4: {}
 
